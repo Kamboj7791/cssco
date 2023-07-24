@@ -1,0 +1,27 @@
+.menu{
+    margin-right: 24px;
+    color: black;
+    font-size: 26px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+#link-bg{
+    background-color: lightblue;
+    padding: 20px 16px;
+}
+body{
+    margin: 0;
+}
+.menu:link{
+   color: black;
+
+}
+.menu:hover{
+    color: red;
+}
+.menu:visited{
+    color: lightcoral;
+}
+.menu:active{
+    color: yellow;
+}

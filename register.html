@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form style</title>
+    <link href="/register.css" rel="stylesheet" type="text/css">
+</head>
+<body style="background-color: lightblue;">
+    <h1 style="text-align: center; text-transform: capitalize ; font-style: oblique;" >Signup</h1>
+    <form id="form-register">
+        <div id="inputs">
+        
+            <input  class="input"  type="text" name="Full-Name" placeholder="Full Name" autofocus required>
+        </div>
+        <div id="inputs">
+          
+            <input class="input" type="text" name="Email" placeholder="Email" autofocus>
+        </div>
+        <div id="inputs">
+          
+            <input class="input" type="number" name="Age" placeholder="age" autofocus min="18" max="40">
+        </div>
+        <div id="inputs">
+       
+            <input class="input" type="password" name="Password" placeholder="Password" autofocus required
+            maxlength="8">
+        </div>
+        <div id="inputs">
+           
+            <input class="input" type="password" name="Confirm Password" placeholder="Confirm Password" autofocus maxlength="8">
+        </div>
+        <div id="checkbox-style">
+            <input class="checkbox" type="checkbox"  name="terms and conditons " value="accept">i agree these terms and conditons
+        </div>
+        <div id="register-btn">
+            <input class="submit" type="submit" value="register">
+        </div>
+    </form>
+    
+</body>
+</html>

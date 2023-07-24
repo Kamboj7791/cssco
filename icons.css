@@ -1,0 +1,24 @@
+#fb-btn{
+    background-color: rgb(103, 103, 249);
+    border: none;
+    border-radius: 8px;
+    padding: 10px 12px;
+    cursor: pointer;
+}
+#insta-btn{
+        background-color: rgb(239, 68, 97);
+        border: none;
+        border-radius: 8px;
+        padding: 10px 12px;
+        cursor: pointer;
+}
+#snap-btn{
+    background-color:#f1f11c;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 12px;
+    cursor: pointer;
+}
+.label{
+    padding-left: 12px;
+}

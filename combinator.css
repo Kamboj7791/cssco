@@ -1,0 +1,78 @@
+#top-bar{
+    background-color: white;
+   position: sticky;
+   top: 0;
+   left: 0;
+    text-align: center;
+    word-spacing: 24px;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 22px;
+    height: 30px;
+    padding-right: 50px;
+}
+body{
+    margin: 0;
+    background-color: rgb(234, 249, 249)
+}
+.menu {
+    font-style: oblique;
+    font-size: 20px;
+}
+.contact{
+    font-style: oblique;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+.about{
+    font-style: oblique;
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu:hover{
+    background-color: lightseagreen;
+    color: white;
+}
+.contact:hover{
+    color: white;
+    background-color: lightseagreen;
+}
+.about:hover{
+    color: white;
+    background-color: lightseagreen;
+}
+.menu:active{
+    background-color: rebeccapurple;
+    color: white;
+}
+.about:active{
+    background-color: rebeccapurple;
+    color: white;
+}
+.contact:active{
+    background-color: rebeccapurple;
+    color: white;
+}
+article h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: 50px;
+}
+article p{
+        text-align: justify;
+        font-size: 18px;
+        
+        font-style: oblique;
+} 
+.image-styling{
+  margin-right: 14px;
+}
+ div + p{
+    background-color: lightcoral;
+ }
+ div ~ p{
+    background-color: lightblue;
+ }
+ 

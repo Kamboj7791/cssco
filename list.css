@@ -1,0 +1,13 @@
+h1{
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+}
+#ordered-list{ 
+    list-style-type: lower-roman;
+    list-style-position: inside;
+    width: 500px;
+}
+#unordered-list{
+    list-style-type: square;
+}

@@ -1,0 +1,64 @@
+#form-register{
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#inputs{
+    
+    margin-bottom: 14px;
+    margin-left: 20px;
+    box-sizing: border;
+  
+    
+}
+.input{
+    margin-top: 12px;
+    width: 200px;
+    margin-left: 12px;
+    box-sizing: border;
+    border: 1px solid black;
+    border-radius: 4px;
+    height: 20px;
+    box-shadow: 1px 1px 4px gray;
+    font-style: oblique;
+    text-transform: capitalize;
+    margin-top: 18px;
+    
+}
+.checkbox{
+    margin-left: 30px;
+    text-transform: capitalize;
+    font-style: oblique;
+}
+#checkbox-style{
+    text-transform: capitalize;
+    font-style: italic;
+    text-shadow: 1px 2px 6px gray ;
+}
+#register-btn{
+    text-align: center;
+    margin-top: 12px;
+}
+.submit{
+    background-color: rgb(76, 76, 253);
+    width: 250px;
+    height: 30px;
+    border: 0px solid white;
+    border-radius: 6px;
+    color: white;
+    text-transform: capitalize;
+}
+.input:focus{
+    background-color: lightblue;
+}
+.input:focus:required{
+    background-color: lightcyan;
+}
+input:disabled{
+    cursor: not-allowed;
+}
+.submit:hover{
+    background-color: blue;
+}

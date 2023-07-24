@@ -1,0 +1,12 @@
+#wrapper{
+  width: 800px;
+  height: 300px;
+  overflow: hidden;
+}
+.image{
+    width: 300px;
+    height: 100px;
+    float: left;
+    margin-right: 12px;
+    
+}

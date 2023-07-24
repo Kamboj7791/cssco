@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 12px red , 2px 6px 12px blue;
+}
+h2{
+    width: 200px;
+    height: 200px;
+    background-color: aliceblue;
+    border-radius: 4px;
+    padding: 80px 25px;
+    box-sizing: border-box;
+    box-shadow: 3px 4px 14px rebeccapurple;
+}
+body{
+    background-color: lightsalmon
+}
